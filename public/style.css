@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+.data-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border: solid #333;
+    width: 70%;
+    height: 50%;
+    border-radius: 5%;
+    background: white;
+}
+
+.item-content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+
+.item-content p{
+    display: flex;
+    width: 100%;
+    border: solid 1px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
